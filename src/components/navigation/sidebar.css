@@ -1,0 +1,46 @@
+
+
+.sidebar {
+    background: linear-gradient(150deg, #0B1538ff, #0B163Bff, #0B163Eff, #0A1740ff, #0A1743ff);
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@font-face {
+    font-family: Tesla;
+    src: url("/public/TESLA.ttf");
+}
+
+.sidebar h1 {
+  margin: 0;
+  padding-top: 20px;
+  font-family: Tesla;
+  color: white;
+  font-size: 130%;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.sidebar h2 {
+    text-align: center;
+    color: rgb(205, 25, 179);
+}
+
+.sidebar ul {
+    list-style-type: none;  
+    overflow: hidden;
+    color: white;
+}
+
+.sidebar li {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar span {
+    margin-left: 10px;
+    font-size: 13px;
+}
